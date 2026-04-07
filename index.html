@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Desscription" content="BookHarbor Bookstore Offering Fiction, Textbooks and Caribbean Literature for all Readers.">
+        <meta name="Keywords" content="Bookstore, Books, Trinidad, Literature, Textbooks">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BookHarbor - Find Your Next Read.</title>
+        <link rel="stylesheet" href="book.css">
+    </head>
+    <body>
+        <header class="top-bar">
+            <nav>
+                <div class="logo">BookHarbor</div>
+                <input type="text" class="search-baar" placeholder="Search for books">
+                <div class="icons">
+                    <button>🛒</button>
+                    <button>☰</button>
+                </div>
+
+                <ul class="nav-links">
+                <li><a href="test.html">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+                <div class="nav-right">
+                    <i class="fas fa-search"></i>
+                    <span>EN <i class="fas fa-chevron-down"></i></span>
+                    <img src="https://img.freepik.com/premium-vector/person-icon_109161-4674.jpg" alt="User" class="user-avatar">
+                </div>
+
+                 <i class="fas fa-bars mobile-menu" onclick="toggleMenu()"></i>
+            </nav>
+        </header>
+
+<section class="hero" id="home">
+        <div class="hero-text">
+            <h1>Find Your<br>Next Book</h1>
+            <p>Discover a world where every page brings a new adventure.</p>
+            <button class="btn">Explore Now <i class="fas fa-arrow-right"></i></button>
+        </div>
+        <div class="book-slider-container">
+            <div class="book-slider">
+                <div class="book-card"><img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300" alt="Book 1"></div>
+                <div class="book-card active"><img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=300" alt="Book 2"></div>
+                <div class="book-card"><img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=300" alt="Book 3"></div>
+            </div>
+        </div>
+
+        </div>
+        <aside class="promo">
+            <h3>Promotions</h3>
+            <p>New arrivals and featured Caribbean book available now.</p>   
+                <div class="books-grid">
+            <div class="book-item">
+                <img src="https://cdn.waterstones.com/bookjackets/large/9781/5445/9781544534077.jpg" alt="Book">
+                <h3>Never Finished</h3>
+                <p>David Goggins</p>
+                <div class="rating">⭐⭐⭐⭐☆</div>
+                <div class="price">$100.00</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="book-item">
+                <img src="https://sc0.blr1.digitaloceanspaces.com/inline/876769-gzjaqrbjea-1524570521.jpg" alt="Book">
+                <h3>Miguel Street</h3>
+                <p>V.S Naipaul</p>
+                <div class="rating">⭐⭐⭐⭐⭐</div>
+                <div class="price">$69.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="book-item">
+                <img src="https://covers.shakespeareandcompany.com/97801413/9780141329994.jpg" alt="Book">
+                <h3>Percy Jackson and The Olympians - The Lightning Thief</h3>
+                <p>Rick Riordan</p>
+                <div class="rating">⭐⭐⭐⭐⭐</div>
+                <div class="price">$125.00</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <section class="reviews" id="#reviews">
+        <div class="section-header">
+            <h2>What Our Readers Say</h2>
+        </div>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBCMoE41XAEilUB56_ZHdstZ_7-3G6U_i17A&s" alt="Reviewer">
+                    <div class="reviewer-info">
+                        <h4>Hassim Doe</h4>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    Amazing books! Highly recommended for all who loves the local folklore genre.
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdrkNdumT-XgDOUdMgaleHw1Zr1F2cB0satw&s" alt="Reviewer">
+                    <div class="reviewer-info">
+                        <h4>Jamie Doe</h4>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    Amazing books! Highly recommended for anyone who loves adventure and fantasy genres.
+                </div>
+            </div>
+        </div>
+    </section>
+             <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>BookHarbor</h3>
+                <p>Your site for discovering new and amazing books. We harbor the best collection of books to help inspire and educate readers globally.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#about">About Us</a>
+                <a href="#catalog">Catalog</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+                <a href="#help">Help Center</a>
+                <a href="#faq">FAQ</a>
+                <a href="#privacy">Privacy Policy</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Independence Square, Port-of-Spain, Trinidad </p>
+                <p><i class="fas fa-phone"></i> 1-868-364-7721</p>
+                <p><i class="fas fa-envelope"></i> Bookharbor@gmail.com</p>
+                <p><i class="fas fa-clock"></i> Mon - Fri: 9AM - 6PM</p>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script>
+        // Close mobile menu when a link is clicked
+        const mobileLinks = mobileNav.querySelectorAll('a');
+
+        function toggleMenu() {
+            document.getElementById('mobileNav').classList.toggle('active');
+        }
+
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileNav.classList.remove('active');
+            });
+        });
+    </script>
+
+    </section>
+    </body>
+</html>
